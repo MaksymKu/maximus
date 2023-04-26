@@ -15,8 +15,7 @@
 }
 
 .navigation {
-    color: #2196F3;
-    background-color: #ffffff;
+    color: #000000;
 }
 
 .phone-number {
@@ -25,4 +24,8 @@
 
 .button {
     color: #2196F3
+}
+
+.navigation-span {
+    color:#2196F3
 }
