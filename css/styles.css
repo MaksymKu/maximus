@@ -39,3 +39,16 @@
     background-color: #000000;
 }
 
+.button {
+    color: #000000;
+}
+
+.button:hover {
+    color: #2196F3;
+}
+
+.button:focus {
+    color: #2196F3;
+}
+
+
