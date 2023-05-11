@@ -78,3 +78,70 @@
         letter-spacing: 0.03em;
         color: #757575;
 }
+
+.example, .team-name {
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.16;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #212121;
+}
+
+.team-card {
+font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-title {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        text-align: center;
+        letter-spacing: 0.03em;
+        color: #757575;
+}
+
+.logo-name-footer {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: #2196F3;
+}
+
+.logo-name-second-footer {
+    font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        /* color: #FFFFFF; */
+}
+
+.adress {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+    
+        /* color: #FFFFFF; */
+}
+
+.email-number {
+    font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        color: rgba(255, 255, 255, 0.6);
+}
