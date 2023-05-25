@@ -80,6 +80,9 @@
         color: #212121;
         margin-top: 94px;
        margin-bottom: 10px;
+
+
+       outline: solid teal;
     }
 
 .paragraph {
@@ -89,6 +92,9 @@
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
+
+
+        outline: solid tomato;
 }
 
 .example, .team-name {
@@ -205,7 +211,7 @@ font-family: 'Roboto';
 }
 
 .menu-info {
-    background-color: tomato;
+    /* background-color: tomato; */
     display: flex;
 }
 
