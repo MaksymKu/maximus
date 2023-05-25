@@ -242,6 +242,7 @@ n
 
 .employees-photo {
     display: flex;
+    flex-direction: column;
     width: 270px;
     height: 260px;
     margin-right: 30px;
