@@ -6,14 +6,35 @@
         letter-spacing: 0.03em;
         margin-right: 93px;
         text-decoration: 0;
+        margin-right: 93px;
+
 }
 .logo-name-second {
     color: #2196F3;
+    
 }
 
 .menu-nav:hover, .menu-nav:focus
  {
     color: #2196F3;
+}
+
+.menu-nav {
+margin-right: 50px;
+}
+
+.menu-nav:nth-child(:last-child){
+    margin-right: 0px;
+}
+
+.mail {
+    margin-left: 331px;
+}
+
+.tel {
+    margin-left: 50px;
+    text-align: center;
+    align-items: baseline;
 }
 
 .logo-name-third {
@@ -215,6 +236,18 @@ font-family: 'Roboto';
 
 .header {
     display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 24px;
+    margin-bottom: 25px;
+}
+
+
+.menu {
+    display: flex;
+    list-style-type: none;
 }
 
 .menu-nav {
