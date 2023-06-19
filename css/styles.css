@@ -7,7 +7,6 @@
         margin-right: 93px;
         text-decoration: 0;
 }
-
 .logo-name-second {
     color: #2196F3;
 }
@@ -130,6 +129,7 @@ font-family: 'Roboto';
         text-align: center;
         letter-spacing: 0.03em;
         color: #757575;
+        margin-bottom: 123px;
 }
 
 .logo-name-footer {
@@ -139,6 +139,9 @@ font-family: 'Roboto';
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: #2196F3;
+        margin-top: 60px;
+        margin-left: 215px;
+        text-decoration: 0;
 }
 
 .logo-name-second-footer {
@@ -148,6 +151,9 @@ font-family: 'Roboto';
         line-height: 1.19;
         letter-spacing: 0.03em;
         /* color: #FFFFFF; */
+        margin-top: 60px;
+        text-decoration: 0;
+
 }
 
 .adress {
@@ -156,7 +162,7 @@ font-family: 'Roboto';
         font-size: 14px;
         line-height: 1.71;
         letter-spacing: 0.03em;
-    
+        margin-left: 215px;
         /* color: #FFFFFF; */
 }
 
