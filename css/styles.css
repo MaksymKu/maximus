@@ -1,3 +1,37 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+ul, ol {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+}
+
+li, a  {
+    list-style: none;
+    text-decoration: none;
+}
+
+img {
+    display: block;
+}
+
+.container {
+width: 1200px;
+padding-left: 15px;
+padding-right: 15px;
+margin: 0 auto;
+}
+
+
 .logo-name {
     font-family: 'Raleway';
         font-weight: 700;
@@ -236,10 +270,10 @@ font-family: 'Roboto';
 
 .header {
     display: flex;
-    padding-left: 15px;
+    /* padding-left: 15px;
     padding-right: 15px;
     margin-left: 200px;
-    margin-right: 200px;
+    margin-right: 200px; */
     margin-top: 24px;
     margin-bottom: 25px;
 }
