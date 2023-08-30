@@ -41,11 +41,21 @@ margin: 0 auto;
         margin-right: 93px;
         text-decoration: 0;
         margin-right: 93px;
+        text-decoration: none;
+        display: flex;
+        align-items: center;
+} 
 
-}
-.logo-name-second {
+
+.blue-text {
     color: #2196F3;
+    text-decoration: none;
+    /* color: inherit; */
+}
     
+.black-text {
+    /* color: inherit; */
+    color: black;
 }
 
 .menu-nav:hover, .menu-nav:focus
@@ -69,6 +79,8 @@ margin-right: 50px;
     margin-left: 50px;
     text-align: center;
     align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: flex-end;
 }
 
 .logo-name-third {
@@ -129,6 +141,15 @@ margin-right: 50px;
         margin-right: 700px;
 }
 
+.section-info  {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+       
+        /* flex-basis: calc((100% - 20px) / 3); */
+        
+}
+
 .feature {
     font-family: 'Roboto';
         font-weight: 700;
@@ -137,11 +158,17 @@ margin-right: 50px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
-        margin-top: 94px;
-       margin-bottom: 10px;
+        margin-top: 86px;
+       /* margin-bottom: 10px; */
+
 
 
        outline: solid teal;
+    }
+
+    .info-containter {
+        display: flex;
+        flex-direction: column;
     }
 
 .paragraph {
@@ -151,13 +178,15 @@ margin-right: 50px;
         line-height: 1.71;
         letter-spacing: 0.03em;
         color: #757575;
-
-
+        margin-bottom: 94px;
+        width: 270px;
+        height: 75px;
         outline: solid tomato;
 }
 
-.example, .team-name {
-    font-family: 'Roboto';
+.example, 
+.team-name {
+        font-family: 'Roboto';
         font-weight: 700;
         font-size: 36px;
         line-height: 1.16;
@@ -288,9 +317,12 @@ font-family: 'Roboto';
     display: flex;
 }
 
-.menu-info {
-    /* background-color: tomato; */
+.menu-info 
+.container {
     display: flex;
+    width: 1170px;
+    height: 101px;
+    background-color: teal;
 }
 
 .example {

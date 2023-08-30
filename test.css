@@ -1,0 +1,64 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+/* .menu-info,
+.container {
+    display: flex;
+    width: 1170px;
+    height: 101px;
+    background-color: teal;
+}
+
+.section-info {
+    display: flex;
+    width: 1170px;
+    justify-content: space-between;
+}
+
+.info-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.feature {
+    outline: solid blue;
+}
+
+.paragraph {
+    outline: solid tomato;
+    width: 270px;
+    height: 75px;
+} */
+
+
+/* header */
+.blue-text {
+color: #2196F3;
+text-decoration: none;
+/* color: inherit; */
+}
+
+.black-text {
+ /* color: inherit; */
+ color: black;
+}
+
+.header {
+    display: flex;
+       
+        margin-top: 24px;
+        margin-bottom: 25px; 
+}
+
+.logo-name {
+    text-decoration: none;
+    display: flex;
+    align-items: center; /* Выравнивание элементов по вертикали */
+}
