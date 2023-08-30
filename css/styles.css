@@ -58,6 +58,10 @@ margin: 0 auto;
     color: black;
 }
 
+.menu {
+align-items: center;
+}
+
 .menu-nav:hover, .menu-nav:focus
  {
     color: #2196F3;
@@ -73,6 +77,7 @@ margin-right: 50px;
 
 .mail {
     margin-left: 331px;
+    align-items: center;
 }
 
 .tel {
@@ -81,6 +86,7 @@ margin-right: 50px;
     align-items: baseline;
     flex-wrap: wrap;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .logo-name-third {
