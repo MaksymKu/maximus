@@ -130,21 +130,24 @@ margin-right: 50px;
 
 .btn-hero {
     font-family: 'Roboto';
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 1.88;
-        display: flex;
-        align-items: center;
-        text-align: center;
-        letter-spacing: 0.06em;
-        cursor: pointer;
-        background-color: #2196F3;
-        color: #FFFFFF;
-        /* position: absolute; */
-        margin-top: 30px;
-        margin-bottom: 200px;
-        margin-left: 700px;
-        margin-right: 700px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .section-info  {

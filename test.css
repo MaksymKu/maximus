@@ -8,57 +8,40 @@ p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
-/* .menu-info,
-.container {
+
+.hero-text {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 30px;
+
+    /* color: #FFFFFF; */
+}
+
+.btn-hero {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
     display: flex;
-    width: 1170px;
-    height: 101px;
-    background-color: teal;
-}
-
-.section-info {
-    display: flex;
-    width: 1170px;
-    justify-content: space-between;
-}
-
-.info-container {
-    display: flex;
-    flex-direction: column;
-}
-
-.feature {
-    outline: solid blue;
-}
-
-.paragraph {
-    outline: solid tomato;
-    width: 270px;
-    height: 75px;
-} */
-
-
-/* header */
-.blue-text {
-color: #2196F3;
-text-decoration: none;
-/* color: inherit; */
-}
-
-.black-text {
- /* color: inherit; */
- color: black;
-}
-
-.header {
-    display: flex;
-       
-        margin-top: 24px;
-        margin-bottom: 25px; 
-}
-
-.logo-name {
-    text-decoration: none;
-    display: flex;
-    align-items: center; /* Выравнивание элементов по вертикали */
+    align-items: center;
+    justify-content: center;/* Центрирование по горизонтали */
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: #2196F3;
+    color: #FFFFFF;
+    margin-top: 30px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
