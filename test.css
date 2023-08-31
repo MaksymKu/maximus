@@ -13,61 +13,58 @@ li {
     list-style: none;
 }
 
-.section-bg {
-    background-color: #F5F4FA;
-    padding-top: 94px;
+.footer {
+    background-color: #2F303A;
     padding-left: 215px;
-    padding-right: 215px;
+    padding-bottom: 60px;
 }
 
-.employees-photo img {    
-    width: 270px;
-    height: 260px;
-    margin-bottom: 30px;
+.name-footer {
+    margin-bottom: 20px;
+    padding-top: 60px;
 }
 
-.team-name {
-    font-family: 'Roboto';
+.logo-name {
+    font-family: 'Raleway';
     font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+    font-size: 26px;
+    line-height: 1.19;
     letter-spacing: 0.03em;
-    color: #212121;
-    margin-bottom: 50px;
-}
-
-.team-bg {
+    margin-right: 93px;
+    text-decoration: 0;
+    text-decoration: none;
     display: flex;
-    justify-content: space-between;
-    padding-left: 0px;
+    align-items: flex-start;
 }
 
-.team-title {
+.blue-text {
+    color: #2196F3;
+    text-decoration: none;
+    /* color: inherit; */
+}
+
+.white-text {
+    /* color: inherit; */
+    color: #FFFFFF;
+}
+
+
+.adress {
     font-family: 'Roboto';
     font-weight: 400;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #757575;
-    margin-top: 10px;
-    margin-bottom: 124px;
-
+    color: #FFFFFF;
 }
 
-.team-name {
+.email-number {
     font-family: 'Roboto';
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.16;
-    text-align: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
     letter-spacing: 0.03em;
-    color: #212121;
-}
-
-.team-card {
-    text-align: center; 
+    color: rgba(255, 255, 255, 0.6);
 }
 
 

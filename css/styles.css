@@ -34,17 +34,16 @@ margin: 0 auto;
 
 .logo-name {
     font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        margin-right: 93px;
-        text-decoration: 0;
-        margin-right: 93px;
-        text-decoration: none;
-        display: flex;
-        align-items: center;
-} 
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    margin-right: 93px;
+    text-decoration: 0;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+}
 
 
 .blue-text {
@@ -56,6 +55,11 @@ margin: 0 auto;
 .black-text {
     /* color: inherit; */
     color: black;
+}
+
+.white-text {
+    /* color: inherit; */
+    color: #FFFFFF;
 }
 
 .menu {
@@ -172,7 +176,7 @@ margin-right: 50px;
 
 
 
-       outline: solid teal;
+       /* outline: solid teal; */
     }
 
     .info-containter {
@@ -190,9 +194,12 @@ margin-right: 50px;
         margin-bottom: 94px;
         width: 270px;
         height: 75px;
-        outline: solid tomato;
+        /* outline: solid tomato; */
 }
  
+.example {
+    text-align: center;
+}
 
 .section-bg {
     background-color: #F5F4FA;
@@ -271,21 +278,20 @@ margin-right: 50px;
 
 .adress {
     font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        margin-left: 215px;
-        /* color: #FFFFFF; */
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: #FFFFFF;
 }
 
 .email-number {
     font-family: 'Roboto';
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 1.71;
-        letter-spacing: 0.03em;
-        color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);
 }
 
 .menu-nav {
@@ -379,4 +385,13 @@ n
     margin-right: 30px;
 }
 
+.footer {
+    background-color: #2F303A;
+    padding-left: 215px;
+    padding-bottom: 60px;
+}
 
+.name-footer {
+    margin-bottom: 20px;
+    padding-top: 60px;
+}
