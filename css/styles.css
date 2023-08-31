@@ -116,6 +116,10 @@ margin-right: 50px;
         color: #757575;
 }
 
+.hero-bg {
+background-color: #2F303A;
+}
+
 .hero-text {
     font-family: 'Roboto';
         font-weight: 900;
@@ -124,12 +128,12 @@ margin-right: 50px;
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;
-        margin-top: 200px;
+        padding-top: 200px;
         margin-left: 452px;
         margin-right: 452px;
         margin-bottom: 30px;
 
-        /* color: #FFFFFF; */
+        color: #FFFFFF;
 }
 
 .btn-hero {
@@ -147,11 +151,37 @@ margin-right: 50px;
     background-color: #2196F3;
     color: #FFFFFF;
     margin-top: 30px;
-    margin-bottom: 200px;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px;
     border-radius: 5px;
+    padding-bottom: 200px;
+}
+
+.button-hero {
+    font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* Центрирование по горизонтали */
+        text-align: center;
+        letter-spacing: 0.06em;
+        cursor: pointer;
+        background-color: #2196F3;
+        color: #FFFFFF;
+        margin-top: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 10px 20px;
+        border-radius: 5px;
+}
+
+.button {
+    padding-bottom: 200px;
+    
 }
 
 .section-info  {
@@ -171,8 +201,7 @@ margin-right: 50px;
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #212121;
-        margin-top: 86px;
-       /* margin-bottom: 10px; */
+        margin-top: 94px;
 
 
 
