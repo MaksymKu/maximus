@@ -9,39 +9,69 @@ p {
     margin-bottom: 0px;
 }
 
-.hero-text {
-    font-family: 'Roboto';
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
-    text-align: center;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    margin-top: 200px;
-    margin-left: 452px;
-    margin-right: 452px;
-    margin-bottom: 30px;
-
-    /* color: #FFFFFF; */
+li {
+    list-style: none;
 }
 
-.btn-hero {
+.section-bg {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.employees-photo img {    
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.team-name {
     font-family: 'Roboto';
     font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    justify-content: center;/* Центрирование по горизонтали */
+    font-size: 36px;
+    line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    background-color: #2196F3;
-    color: #FFFFFF;
-    margin-top: 30px;
-    margin-bottom: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px 20px;
-    border-radius: 5px;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
 }
+
+.team-bg {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 124px;
+
+}
+
+.team-name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+}
+
+.team-card {
+    text-align: center; 
+}
+
+
+
+
+
+
