@@ -13,33 +13,47 @@
 </head>
 <body>
 <!-- HEADER -->
-    <header>
-    <a class="logo-name" href="./index.html"> 
-        <span class="logo-name-second">Web</span>Studio</a>
-    </h1>
-    <ul>
-        <li> 
-            <a class="menu-nav" href="./index.html"> Студия </a> 
-        </li>
-        <li> 
-            <a class="menu-nav" href="./index2.html"> Портфолио</a> 
-        </li>
-        <li> 
-            <a class="menu-nav" href=""> Контакты </a> 
-        </li>
-        <li lang="en"> 
-            <a class="menu-nav" href=""> info@devstudio.com </a>
-        </li>
-    </ul>
-    <div>
-        <span class="">
+    
+<div class="container">
+    <header class="header">
+        <a class="logo-name" href="./index.html">
+            <div class="blue-text">Web</div>
+            <span class="black-text">Studio</span>
+        </a>
+        <ul class="menu">
+            <li>
+                <a class="menu-nav" href="./index.html"> Студия </a>
+            </li>
+            <li>
+                <a class="menu-nav" href="./index2.html"> Портфолио</a>
+            </li>
+            <li>
+                <a class="menu-nav" href=""> Контакты </a>
+            </li>
+        </ul>
+        <div>
+            <li lang="en"> <a class="mail" href=""> info@devstudio.com </a>
+            </li>
+        </div>
+        <span>
             <a class="tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
         </span>
-    </div>
-    </header>
+</div>
+</ul>
+</div>
+
+<!-- <div>
+                <span>
+                    <a class="tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
+                </span>
+            </div> -->
+
+</header>
+</div>
+
     <!-- SECTION OF HERO -->
     <main>
-        <section>
+        <section class="container button-portfolio">
             <div>
                 <button type="button" class="menu-filter"> Все </button>
                 <button type="button" class="menu-filter">Веб-сайты </button>
@@ -50,16 +64,16 @@
            
         </section>
         <!-- ГЕРОЙ -->
-        <section>
+        <section class="container">
             <h1 hidden> Фото карточки </h1>
-            <ul>
+            <ul class="photo-card">
                 <li> 
                     <div> 
                         <img src="./photos/portfolio1.png" alt="notebook" >
                 <h2 class="feature2">Технокряк </h2> 
                 <p class="paragraph">Веб-сайт</p> 
-            </div>
-                </li>
+                    </div>
+            </li>
                 <li>
                     <div> 
                         <img src="./photos/portfolio2.png" alt="bassketball">
@@ -122,18 +136,22 @@
     <!-- ПОДВАЛ -->
     <footer class="footer">
         <ul>
-            <li> 
-                <a class="logo-name-second-footer" href="./index.html">
-                    <span class="logo-name-footer">Web</span>Studio</a> 
+            <div class="name-footer">
+                <li>
+                    <a class="logo-name" href="./index.html">
+                        <div class="blue-text">Web</div>
+                        <span class="white-text">Studio</span>
+                    </a>
                 </li>
-            <li> 
-                <a class="adress" target="_blank" href="https://goo.gl/maps/D4VQkas7a78nMVXz9"> г. Киев, пр-т Леси
-                    Украинки, 26 </a>
-                </li>
-            <li> 
+            </div>
+            <li>
+                <a class="adress" target="_blank" href="https://goo.gl/maps/D4VQkas7a78nMVXz9">
+                    г. Киев, пр-т Леси Украинки,26 </a>
+            </li>
+            <li>
                 <a class="email-nubmer" href="info@example.com"> info@example.com </a>
             </li>
-            <li> 
+            <li>
                 <a class="email-nubmer" href=""> +38 099 111 11 11 </a>
             </li>
         </ul>

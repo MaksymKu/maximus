@@ -24,6 +24,10 @@ img {
     display: block;
 }
 
+body {
+    margin: 0%;
+}
+
 .container {
 width: 1200px;
 padding-left: 15px;
@@ -423,4 +427,16 @@ n
 .name-footer {
     margin-bottom: 20px;
     padding-top: 60px;
+}
+
+.button-portfolio {
+   text-align: center; 
+   margin-top: 94px;
+   margin-bottom: 50px;
+}
+
+.photo-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
