@@ -121,7 +121,12 @@ margin-right: 50px;
 }
 
 .hero-bg {
-background-color: #2F303A;
+    /* background-color: #2F303A; */
+    /* background-image: url(./photos/hero-img.png); */
+    background-image: linear-gradient(to right,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)),
+        url(../photos/hero-img.png)
 }
 
 .hero-text {
@@ -158,8 +163,9 @@ background-color: #2F303A;
     margin-left: auto;
     margin-right: auto;
     padding: 10px 20px;
-    border-radius: 5px;
     padding-bottom: 200px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
 .button-hero {

@@ -13,60 +13,71 @@ li {
     list-style: none;
 }
 
-.footer {
-    background-color: #2F303A;
-    padding-left: 215px;
-    padding-bottom: 60px;
+.hero-bg {
+    /* background-color: #2F303A; */
+    /* background-image: url(./photos/hero-img.png); */
+    background-image: linear-gradient(to right,
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)),
+     url(./photos/hero-img.png)
 }
 
-.name-footer {
-    margin-bottom: 20px;
-    padding-top: 60px;
+.hero-bg::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient
+    (to right, 
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.2));
 }
 
-.logo-name {
-    font-family: 'Raleway';
+.hero-text {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    padding-top: 200px;
+    margin-left: 452px;
+    margin-right: 452px;
+    margin-bottom: 30px;
+
+    color: #FFFFFF;
+}
+
+.button-hero {
+    font-family: 'Roboto';
     font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    margin-right: 93px;
-    text-decoration: 0;
-    text-decoration: none;
+    font-size: 16px;
+    line-height: 1.88;
     display: flex;
-    align-items: flex-start;
-}
-
-.blue-text {
-    color: #2196F3;
-    text-decoration: none;
-    /* color: inherit; */
-}
-
-.white-text {
-    /* color: inherit; */
+    align-items: center;
+    justify-content: center;
+    /* Центрирование по горизонтали */
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    background-color: #2196F3;
     color: #FFFFFF;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px 0px 
+    rgba(0, 0, 0, 0.15);
 }
 
+.button {
+    padding-bottom: 200px;
 
-.adress {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: #FFFFFF;
 }
-
-.email-number {
-    font-family: 'Roboto';
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.71;
-    letter-spacing: 0.03em;
-    color: rgba(255, 255, 255, 0.6);
-}
-
 
 
 
