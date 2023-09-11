@@ -395,6 +395,44 @@ padding-bottom: 28px;
 }
 
 
+/* CLIETNS */
+
+.client-text{
+    text-align: center;
+    padding-top: 94px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.clients-card{
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+}
+
+.clients-card:hover{
+    background-color: #2196F3;
+
+}
+
+.logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+/* FOOTER */
+
+
 .logo-name-footer {
     font-family: 'Raleway';
     font-weight: 700;
