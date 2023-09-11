@@ -1,0 +1,61 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.section-bg {
+    background-color: #F5F4FA;
+    padding-top: 94px;
+    padding-left: 215px;
+    padding-right: 215px;
+}
+
+.employees-photo img {
+    width: 270px;
+    height: 260px;
+    margin-bottom: 30px;
+}
+
+.team-bg {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0px;
+}
+
+.team-name {
+    font-family: 'Roboto';
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    margin-bottom: 50px;
+}
+
+.team-card {
+    text-align: center;
+}
+
+.team-title {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-top: 10px;
+    margin-bottom: 124px;
+
+}
