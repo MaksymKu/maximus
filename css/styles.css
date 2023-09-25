@@ -417,45 +417,34 @@ padding-bottom: 28px;
     border: 1px solid #AFB1B8;
 }
 
-.clients-card:hover{
+/* .clients-card:hover{
     background-color: #2196F3;
 
-}
+} */
 
 .logo{
     align-items: center;
     display: flex;
     justify-content: center;
-
+    margin-top: 16px;
 }
+
 
 
 /* FOOTER */
 
 
-.logo-name-footer {
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
-    margin-top: 60px;
-    margin-left: 215px;
-    text-decoration: 0;
+.footer-container{
+    justify-content: center;
 }
 
-.logo-name-second-footer {
-    font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 1.19;
-        letter-spacing: 0.03em;
-        /* color: #FFFFFF; */
-        margin-top: 60px;
-        text-decoration: 0;
-
+.footer-name{
+color: #FFFFFF;
+display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 .adress {
     font-family: 'Roboto';
