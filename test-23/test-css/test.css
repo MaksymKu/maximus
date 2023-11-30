@@ -90,28 +90,39 @@ color: #fff
 ;
 }
 
-.footer{
-    padding: 0;
-    margin: 0;
-    background-color: #2F303A;
-    height: 252px;
-    width: auto;
-    /* display: flex; */
+
+
+.button-icon:hover{
+    background-color: #2196F3;
+    border-radius: 50%;
 }
 
-.container-footer-1{
+.social-list-item{
+display: flex;
+/* background-color: #2196F3; */
+width: 44px;
+height: 44px;
+border-radius: 50%;
+justify-content: center;
+align-items: center;
+cursor: pointer;
+}
+
+.social-list-item:hover{
+background-color: #2196F3;
+}
+ 
+.social-list-icon {
+    fill: #AFB1B8;
+}
+.social-list-icon:hover{
+fill: #fff;
+}
+
+.social-list{
     display: flex;
-    /* flex-wrap: nowrap;
-    flex-direction: column; */
+    /* justify-content: space-between; */
 }
-
-.container-footer-2 {
-    display: flex;
-
-}
-
-
-
 
 /* .footer-name {
     color: #FFFFFF;
