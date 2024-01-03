@@ -18,7 +18,7 @@
 <body>
     <!-- <nav> -->
         <!-- HEADER -->
-        <div class="container">
+        <!-- <div class="container"> -->
             <header class="header">
             <a class="logo-name" href="./index.html">
                 <div class="blue-text">Web</div>
@@ -26,7 +26,7 @@
             </a>
             <ul class="menu">
                 <li>
-                    <a class="menu-nav" href="./index.html"> Студия </a>
+                    <a class="menu-nav active" href="./index.html"> Студия </a>
                 </li>
                 <li>
                     <a class="menu-nav" href="./index2.html"> Портфолио</a>
@@ -35,7 +35,8 @@
                     <a class="menu-nav" href=""> Контакты </a>
                 </li>
                 </ul>
-                <div>
+                
+                <!-- <div>
                     <li lang="en"> <a class="mail" href=""> info@devstudio.com </a>
                     </li>
                 </div>
@@ -43,9 +44,18 @@
                         <a class="tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
                     </span>
                 </div>
-            </ul>
+            </ul> -->  
             </div>
-        
+            <div class="header-right">
+                <ul>
+                    <li>
+                        <a class="mail" href=""> info@devstudio.com </a>
+                    </li>
+                    <li>
+                        <a class="tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
+                    </li>
+                </ul>
+            </div>
             <!-- <div>
                 <span>
                     <a class="tel" href="tel:+380961111111"> +38 096 111 11 11 </a>
@@ -267,68 +277,95 @@
 
     <!-- CLIENTS -->
     <section class="clients-bg">
-        <h4 class="team-name client-text">Постоянные клиенты</h4>
-            <section class="cards" > 
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo1.svg" alt="logo">
-                </a>
-            </div>
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo2.svg" alt="logo">
-                </a>
-            </div>
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo3.svg" alt="logo">
-                </a>
-            </div>
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo4.png" alt="logo">
-                </a>
-            </div>
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo4.svg" alt="logo">
-                </a>
-            </div>
-            <div class="clients-card"> <a href="" class="logo">
-                    <img src="./photos/Logo6.svg" alt="logo">
-                </a>
-            </div>
-        </div>
+        <h4 class="team-name client-text" lang="ru">Постоянные клиенты</h4>
+                <section class="section-clients">
+                <div class="section-client-bg">
+                    <a href="logo-test">
+                        <img class="" src="./photos/Logo1.svg" alt="client-logo">
+                    </a>
+                </div>
+                <div class="section-client-bg">
+                    <a href="">
+                        <img src="./photos/Logo2.svg" alt="client-logo">
+                    </a>
+                </div>
+                <div class="section-client-bg">
+                    <a href="">
+                        <img src="./photos/Logo3.svg" alt="client-logo">
+                    </a>
+                </div>
+                <div class="section-client-bg">
+                    <a href="">
+                        <img src="./photos/Logo4.svg" alt="client-logo">
+                    </a>
+                </div>
+                <div class="section-client-bg">
+                    <a href="">
+                        <img src="./photos/Logo5.svg" alt="client-logo">
+                    </a>
+                </div>
+                <div class="section-client-bg">
+                    <a href="">
+                        <img src="./photos/Logo6.svg" alt="client-logo">
+                    </a>
+                </div>
         </section>
 
     </section>
-
-    <footer class="footer">
-        <ul>
-            <!-- <div class="footer-container">
-                <p class="footer-name">присоединяйтесь</p>
-            </div>
-            <div class="logo">
-                <a class="" target="_blank" href="">
-                    <img src="./photos/facebook.svg" alt="face">
-                </a>
-            </div> -->
-            <div class="name-footer">
+    <footer>
+        <section class="footer">
+            <ul class="left-bg">
                 <li>
                     <a class="logo-name" href="./index.html">
                         <div class="blue-text">Web</div>
                         <span class="white-text">Studio</span>
                     </a>
                 </li>
+                <li>
+                    <a class="adress" target="_blank" href="https://goo.gl/maps/D4VQkas7a78nMVXz9">
+                        г. Киев, пр-т Леси Украинки,26 </a>
+                </li>
+                <li>
+                    <a class="email-nubmer" href="info@example.com">info@example.com</a>
+                </li>
+                <li>
+                    <a class="email-nubmer" href=""> +38 099 111 11 11 </a>
+                </li>
+            </ul>
+            <div class="right-bg">
+                <p class="white-text-footer">присоединяйтесь</p>
+                <ul class="social-list">
+                    <li class="social-list-item-footer">
+                        <a href="" target="_blank" class="social-list-icon-footer">
+                            <svg class="" width="20" height="20">
+                                <use href="../photos/sprite-icons-white.svg#icon-inst-white"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a href="" target="_blank" class="social-list-icon-footer">
+                            <svg class="" width="20" height="20">
+                                <use href="../photos/sprite-icons-white.svg#icon-twit-white"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a href="" target="_blank" class="social-list-icon-footer">
+                            <svg class="" width="20" height="20">
+                                <use href="../photos/sprite-icons-white.svg#icon-facebook-white"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="social-list-item-footer">
+                        <a href="" target="_blank" class="social-list-icon-footer">
+                            <svg class="" width="20" height="20">
+                                <use href="../photos/sprite-icons-white.svg#icon-link-white"> </use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
             </div>
-            <li>
-                <a class="adress" target="_blank" href="https://goo.gl/maps/D4VQkas7a78nMVXz9">
-                    г. Киев, пр-т Леси Украинки,26 </a>
-            </li>
-            <li>
-                <a class="email-nubmer" href="info@example.com"> info@example.com </a>
-            </li>
-            <li>
-                <a class="email-nubmer" href=""> +38 099 111 11 11 </a>
-            </li>
-        </ul>
-
-        
+        </section>
     </footer>
 
 </body>

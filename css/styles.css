@@ -28,11 +28,12 @@ body {
     margin: 0%;
 }
 
-.container {
-width: 1200px;
+.header {
+width: 1170px;
 padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
+
 }
 
 
@@ -77,13 +78,33 @@ align-items: center;
 
 .menu-nav {
 margin-right: 50px;
+display: block;
 }
 
 .menu-nav:nth-child(:last-child){
     margin-right: 0px;
 }
 
-.mail {
+.menu-nav.active {
+    color: #2196F3;
+    /* Цвет для активного пункта */
+} 
+
+.menu-nav::after {
+    content: '';
+    width: 48px;
+    height: 4px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    background: #2196F3;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%)
+    display : block;
+    margin-top: 5px;
+}
+
+/* .mail {
     margin-left: 331px;
     align-items: center;
 }
@@ -94,8 +115,18 @@ margin-right: 50px;
     align-items: baseline;
     flex-wrap: wrap;
     justify-content: flex-end;
-    align-items: center;
+    align-items: center; */
+
+.mail {
+    display: flex;
+    justify-content: flex-end;
 }
+
+.right-contact-header{
+    display: flex;
+    flex-direction: row-reverse;
+}
+    
 
 .logo-name-third {
     color: #000000;
@@ -416,11 +447,20 @@ padding-bottom: 28px;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    transition-duration: 1000ms;
+    transition-timing-function:
+    cubic-bezier(.05, .94, .99, -0.08);
+    transition-delay: 100ms;
 }
 
 .social-list-item:hover,
 .social-list-item:focus {
     background-color: #2196F3;
+    /* transition-property: inherit  ; */
+    /* transition-duration: 1000ms;
+    transition-timing-function: cubic-bezier(.05, .94, .99, -0.08)
+    transition-delay: 0ms ; */
+
 }
 
 .social-list-icon {
@@ -428,6 +468,16 @@ padding-bottom: 28px;
 }
 
 .social-list-icon:hover {
+    fill: #fff;
+    
+}
+
+.social-list-link:hover{
+    fill: #FFF;
+    
+}
+
+.social-list-item:hover .social-list-icon {
     fill: #fff;
 }
 
@@ -446,9 +496,25 @@ padding-bottom: 28px;
     margin: auto;
 }
 
-.cards{
+.section-clients {
+    /* width: 1170px;
+    height: 184px; */
     display: flex;
     justify-content: space-evenly;
+
+}
+
+.section-client-bg {
+    width: 170px;
+    height: 92px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #AFB1B8;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* cursor: pointer; */
 }
 
 .clients-card{
@@ -457,6 +523,14 @@ padding-bottom: 28px;
     flex-shrink: 0;
     border-radius: 4px;
     border: 1px solid #AFB1B8;
+}
+
+.section-client-bg:hover{
+    border-color: #2196F3;
+}
+
+.section-client-bg:hover, img {
+    fill: #2196F3;
 }
 
 /* .clients-card:hover{
@@ -471,22 +545,20 @@ padding-bottom: 28px;
     margin-top: 16px;
 }
 
-
+.logo-2:hover {
+    fill: #2196F3;
+}
 
 /* FOOTER */
 
-
-.footer-container{
-    justify-content: center;
+.footer {
+    width: auto;
+    height: 252px;
+    background: #2F303A;
+    padding: 0;
+    margin: 0;
+    display: flex;
 }
-
-.footer-name{
-color: #FFFFFF;
-display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 
 .adress {
     font-family: 'Roboto';
@@ -505,6 +577,63 @@ display: flex;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+
+.left-bg {
+    padding-top: 60px;
+}
+
+.white-text-footer {
+    color: #FFF;
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+
+    padding-bottom: 20px;
+}
+
+.right-bg {
+    padding-top: 72px;
+    padding-left: 62px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.social-list-icon-footer {
+    width: 20px;
+    height: 20px;
+    flex-shrink: 0;
+
+}
+
+.social-list-item-footer {
+    width: 44px;
+    height: 44px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.10);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-right: 10px;
+}
+
+.social-list-item-footer:hover {
+    background-color: #2196F3;
+    cursor: pointer;
+    transition-duration: 1000ms;
+    transition-timing-function:
+        cubic-bezier(.05, .94, .99, -0.08);
+    transition-delay: 100ms;
+}
+
 
 .menu-nav {
     font-family: 'Roboto';
@@ -555,6 +684,9 @@ display: flex;
     margin-bottom: 25px;
 }
 
+.header-right {
+    display: flex;
+}
 
 .menu {
     display: flex;
