@@ -21,7 +21,7 @@ li {
 
 .black-text {
     
-    color: black;
+    color: #212121;
 }
 
 .white-text {
@@ -42,20 +42,70 @@ li {
     align-items: flex-start;
 }
 
+
+body {
+    margin: 0;
+}
 /* HEADER */
 
 .header {
-    width: 1170px;
+    width: 1600px;
+    height: 80px;
+    background-color: teal;
+    display: flex;
     padding-left: 15px;
     padding-right: 15px;
-    margin: 0 auto;
+    
+
+}
+
+.header-container {
+   display: flex;
+   /* padding-top: 25px;
+   padding-bottom: 25px; */
+   /* margin-left: 200px;
+   margin-right: 200px;
+   padding-left: 15px;
+   padding-right: 15px;  */
+}
+
+.logo-name{
+    margin-right: 93px;
+}
+
+.left-container {
     display: flex;
 }
 
-.headre-right {
-    justify-content: end;
+a {
+    text-decoration: none;
 }
 
+.menu-nav {
+    color: #212121;
+    margin-right: 50px;
+}
+
+.active {
+    color: #2196F3;
+}
+/* Стили для правой части шапки с номером телефона и почтой */
+/* .header-right {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.mail,
+.tel {
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+    /* Цвет ссылок */
+ 
+
+
+/* -------- */
 
 .footer{
     
